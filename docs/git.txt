@@ -1,0 +1,8 @@
+1. ssh-keygen
+2. Ключ .pub закинуть на github
+3. Клонирование репозитория: git clone [скопированная ссылка ssh]
+4. После внесения изменений 
+git status
+git add .
+git commit -m "Название коммита"
+git push origin main
